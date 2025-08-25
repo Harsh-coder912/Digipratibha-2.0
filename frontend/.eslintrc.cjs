@@ -1,0 +1,11 @@
+module.exports = {
+  root: true,
+  extends: ['next/core-web-vitals', 'prettier'],
+  plugins: ['simple-import-sort'],
+  rules: {
+    'simple-import-sort/imports': 'warn',
+    'simple-import-sort/exports': 'warn'
+  }
+};
+
+
